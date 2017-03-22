@@ -10,8 +10,7 @@ public class Celsius {
         System.out.println("Digite a temperatura em Fahrenheit: ");
         Scanner scan = new Scanner(System.in);
         f = scan.nextDouble();
-        
-        
+       
         c = (f-32)/1.8;
         
         System.out.println("Celsius: "+c);
